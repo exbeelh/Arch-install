@@ -9,7 +9,6 @@ echo "sf314" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1       localhost" >> /etc/hosts
 echo "127.0.1.1 sf314.localdomain sf314" >> /etc/hosts
-echo root:password | chpasswd
 
 pacman -S grub efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector base-devel linux-headers avahi nfs-utils inetutils dnsutils bluez xdg-utils xdg-user-dirs bluez-utils alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack bash-completion openssh rsync reflector acpi acpi_call tlp ufw flatpak sof-firmware nss-mdns acpid os-prober ntfs-3g terminus-font
 
